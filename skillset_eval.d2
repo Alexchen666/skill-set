@@ -1,0 +1,215 @@
+direction: left
+grid-columns: 2
+
+classes:{
+    experienced: {
+        style:{
+            fill: "#60A917"
+            stroke: "#2D7600"
+            font-color: "#FFFFFF"
+        }
+    }
+    have some knowledge: {
+        style:{
+            fill: "#D5E8D4"
+            stroke: "#82B366"
+            font-color: "#000000"
+        }
+    }
+    should learn again: {
+        style:{
+            fill: "#F5F5F5"
+            stroke: "#666666"
+            font-color: "#000000"
+        }
+    }
+}
+
+ds: Data Science {
+    grid-columns: 2
+
+    py: Python {
+        grid-rows: 9
+
+        Data Wrangling.pandas.class: experienced
+        Data Wrangling.polars.class: experienced
+
+        Data Visualisation.seaborn.class: experienced
+        Data Visualisation.matplotlib.class: experienced
+
+        Machine Learning.scikit-learn.class: experienced
+        Machine Learning.numpy.class: experienced
+        Machine Learning.XGBoost.class: experienced
+        Machine Learning.statsmodels.class: experienced
+        Machine Learning.scipy.class: experienced
+
+        Deep Learning.TensorFlow.class: have some knowledge
+        Deep Learning.PyTorch.class: have some knowledge
+        Deep Learning.keras.class: experienced
+
+        Hyperparameter Tuning.Hyperopt.class: should learn again
+        Hyperparameter Tuning.tpot.class: should learn again
+
+        Parallel Computing.PySpark(SparkSQL, MLlib).class: should learn again
+
+        LLM.evaluate.class: should learn again
+        LLM.trl.class: should learn again
+        LLM.tiktoken.class: should learn again
+
+        Natural Language Processing.re.class: experienced
+        Natural Language Processing.NLTK.class: should learn again
+        Natural Language Processing.Gensim.class: should learn again
+        Natural Language Processing.polyglot.class: should learn again
+        Natural Language Processing.spaCy.class: should learn again
+
+        Database.SQLAlchemy.class: should learn again
+
+        Image Processing.scikit-image.class: should learn again
+
+        Impuation.fancyimpute.class: should learn again
+
+        Bayesian.numpyro.class: experienced
+        Bayesian.PyMC.class: experienced
+        Bayesian.PyStan.class: experienced
+
+        Data Validation.patito.class: experienced
+
+        Testing.pytest.class: have some knowledge
+        Testing.unittest.class: should learn again
+
+        Monitoring.NannyML.class: should learn again
+
+        Web Scraping.urllib.class: should learn again
+        Web Scraping.requests.class: have some knowledge
+        Web Scraping.BeautifulSoup.class: have some knowledge
+        Web Scraping.scrapy.class: should learn again
+        Web Scraping.Selenium.class: should learn again
+
+        GIS Data.GeoPandas.class: should learn again
+        GIS Data.GeoJSON.class: should learn again
+        GIS Data.GeoSeries.class: should learn again
+        GIS Data.folium.class: experienced
+
+        Privacy-enhancing Techniques.faker.class: experienced
+        Privacy-enhancing Techniques.diffprivlib.class: have some knowledge
+        Privacy-enhancing Techniques.SDV.class: experienced
+        Privacy-enhancing Techniques.smartnoise.class: experienced
+
+        Presentation.marimo.class: experienced
+    }
+
+    r: R {
+        grid-rows: 4
+
+        Data Wrangling.tidyverse.class: experienced
+
+        Data Visualisation.ggplot2.class: experienced
+
+        Machine Learning.caret.class: have some knowledge
+        Machine Learning.mlr.class: should learn again
+        Machine Learning.h2o.class: should learn again
+        Machine Learning.broom.class: should learn again
+
+        Bayesian.rstan.class: experienced
+        Bayesian.inla.class: experienced
+        Bayesian.jags.class: experienced
+
+        Presentation.Shiny.class: should learn again
+        Presentation.RMarkDown.class: experienced
+    }
+
+    concepts: Concepts / Theories{
+        grid-rows: 8
+
+        Machine Learning.class: experienced
+        Data Visualisation.class: experienced
+        Bayesian Data Analysis.class: experienced
+        Hyperparameter Tuning.class: experienced
+        Data Wrangling.class: experienced
+        EDA.class: experienced
+        Statistical Computing.class: experienced
+        Time Series.class: experienced
+        Natural Language Processing.class: have some knowledge
+        Deep Learning (NN, CNN, RNN).class: experienced
+        Image Processing.class: have some knowledge
+        Parallel Computing.class: should learn again
+        Feature Engineering.class: experienced
+        Statistical Simulation.class: experienced
+        Recommendation System.class: should learn again
+        LLM (Transformer, Agent).class: have some knowledge
+        Prompt Engineering.class: experienced
+        RAG (Embedding).class: experienced
+        LLM Fine-tuning (LoRA).class: should learn again
+    }
+}
+
+db: Database{
+    grid-rows: 3
+
+    SQL.MySQL.class: experienced
+    SQL.PostgreSQL.class: have some knowledge
+    SQL.DuckDB.class: experienced
+
+    SQL / NoSQL.Snowflake.class: should learn again
+
+    NoSQL.MongoDB.class: should learn again
+    NoSQL.Redis.class: should learn again
+
+    Graph Database.Neo4j.class: have some knowledge
+
+    Concepts / Theories.Relational Database.class: experienced
+    Concepts / Theories.NoSQL Database.class: should learn again
+    Concepts / Theories.Datawarehousing.class: should learn again
+}
+
+mlops: MLOps{
+    grid-rows: 3
+
+    CI / CD.Shell.class: have some knowledge
+    CI / CD.Bash.class: have some knowledge
+    CI / CD.Zsh.class: have some knowledge
+    CI / CD.MLFlow.class: have some knowledge
+    CI / CD.Feast.class: should learn again
+    CI / CD.Git.class: experienced
+    CI / CD.GitHub Actions (CML).class: experienced
+    CI / CD.YAML.class: experienced
+
+    Containerisation.Docker.class: experienced
+    Containerisation.Kubernetes.class: have some knowledge
+
+    Clouds.AWS (EC2, RDS, S3, EB).class: have some knowledge
+    Clouds.BigQuery.class: have some knowledge
+
+    Data Engineering.Apache.class: should learn again
+    Data Engineering.Apache Airflow.class: have some knowledge
+    Data Engineering.Apache Kafka.class: have some knowledge
+    Data Engineering.dbt.class: have some knowledge
+    Data Engineering.DVC.class: should learn again
+
+    Concepts / Theories.Cloud Computing.class: have some knowledge
+    Concepts / Theories.ETL / ELT.class: experienced
+    Concepts / Theories.Streaming.class: have some knowledge
+    Concepts / Theories.Deployment.class: have some knowledge
+    Concepts / Theories.Monitoring.class: have some knowledge
+    Concepts / Theories.CI / CD / CT / CM.class: experienced
+}
+
+others: Data-related Skills{
+    grid-rows: 2
+
+    Programming Language.Julia.class: have some knowledge
+    Programming Language.C++.class: have some knowledge
+    Programming Language.D2.class: have some knowledge
+
+    LLM.HuggingFace.class: have some knowledge
+    LLM.OpenAI API.class: have some knowledge
+    LLM.Chroma.class: have some knowledge
+    LLM.LangChain.class: have some knowledge
+    LLM.Llama 3.class: have some knowledge
+    LLM.Pinecone.class: have some knowledge
+    LLM.Ollama.class: experienced
+
+    Concepts / Theories.Build Web Application.class: should learn again
+    Concepts / Theories.Data Privacy and Anonymisation.class: experienced
+    Concepts / Theories.Web Scraping.class: have some knowledge
+}
