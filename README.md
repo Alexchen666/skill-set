@@ -7,6 +7,6 @@ Reference: https://d2lang.com/
 
 `brew install d2` and that's all!
 
-## Graph
+## Diagram
 
 ![](out.svg)
