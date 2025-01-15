@@ -1,4 +1,4 @@
-# SkillSet-D2
+# SkillSet
 Use D2 to plot my skillsets.
 
 Reference: https://d2lang.com/
