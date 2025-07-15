@@ -9,4 +9,4 @@ Reference: https://d2lang.com/
 
 ## Diagram
 
-![](out.svg)
+![](skillset.svg)
